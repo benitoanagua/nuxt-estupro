@@ -29,7 +29,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Monda", ...defaultTheme.fontFamily.sans],
-        serif: ["Inika", ...defaultTheme.fontFamily.serif],
+        serif: ["Yeseva One", ...defaultTheme.fontFamily.serif],
       },
     },
   },
