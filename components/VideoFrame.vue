@@ -1,6 +1,7 @@
 <template>
   <iframe
-    width="560"
+    class="max-w-xl"
+    width="100%"
     height="315"
     :src="url"
     title="YouTube video player"
