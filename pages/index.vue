@@ -24,7 +24,8 @@
       />
       <VideoFrame :url="profile.VideoEnd" />
     </main>
-    <Credits :content="profile.Credits" />
+    <hr class="border-gray-300" />
+    <Logos :logo1="profile.Logo1" :logo2="profile.Logo2" />
   </div>
 </template>
 
