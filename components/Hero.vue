@@ -10,14 +10,14 @@
     <div
       :class="[
         'w-full h-screen absolute',
-        'bg-gradient-to-r from-indigo-900/75 via-purple-900/75 to-pink-900/75',
+        'bg-gradient-to-b from-indigo-900/75 via-purple-900/75 to-pink-900/75',
       ]"
     ></div>
     <div class="max-w-2xl my-8 z-20">
       <h1
         :class="[
           'uppercase text-4xl sm:text-5xl md:text-8xl text-center  tracking-wider',
-          'bg-clip-text text-transparent bg-gradient-to-r from-pink-200 to-violet-400',
+          'bg-clip-text text-transparent bg-gradient-to-r from-pink-50 to-violet-100',
           'drop-shadow-2xl pt-2',
         ]"
       >
