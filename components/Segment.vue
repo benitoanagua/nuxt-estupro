@@ -1,11 +1,8 @@
 <template>
-  <article class="my-8">
+  <article class="my-12">
     <h3 v-if="title" class="my-4">{{ title }}</h3>
     <div v-html="content" class="flex flex-col space-y-4"></div>
-    <div v-if="picture">
-      <img :src="imgUrl" :alt="caption" />
-      <span class="text-xs md:text-sm text-gray-500">{{ caption }}</span>
-    </div>
+    <Lightbox v-if="picture" :link="photo" :description="caption" />
   </article>
 </template>
 
@@ -25,5 +22,5 @@ const props = defineProps({
   },
 });
 const config = useRuntimeConfig();
-const imgUrl = computed(() => `${config.directusUrl}/assets/${props.picture}`);
+const photo = computed(() => `${config.directusUrl}/assets/${props.picture}`);
 </script>

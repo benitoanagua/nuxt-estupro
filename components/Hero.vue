@@ -46,10 +46,4 @@ const props = defineProps({
     type: String,
   },
 });
-// const headerClass = computed(() => ({
-//   "w-full min-h-screen": true,
-//   "bg-cover bg-center bg-fixed": true,
-// }));
-// const config = useRuntimeConfig();
-// const imgUrl = computed(() => `${config.directusUrl}/assets/${props.picture}`);
 </script>

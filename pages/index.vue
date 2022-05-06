@@ -6,9 +6,9 @@
       :excerpt="global.Excerpt"
     />
     <main :class="containerClass">
-      <section>
+      <!-- <section>
         <VideoFrame :url="global.VideoIntro" />
-      </section>
+      </section> -->
 
       <section>
         <h6>{{ global.Author }}</h6>
@@ -20,9 +20,9 @@
         :picture="block.Picture"
         :caption="block.Caption"
       />
-      <section>
+      <!-- <section>
         <VideoFrame :url="global.VideoEnd" />
-      </section>
+      </section> -->
     </main>
     <footer v-html="global.Credits" :class="containerClass"></footer>
   </div>
@@ -34,6 +34,6 @@ const global = await getItems({ collection: "Global" });
 const blocks = await getItems({ collection: "Sections" });
 
 const containerClass = computed(() => ({
-  "max-w-screen-md mx-auto": true,
+  "max-w-screen-md mx-auto px-4 md:px-0": true,
 }));
 </script>
