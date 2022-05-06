@@ -5,5 +5,6 @@ export default defineNuxtConfig({
   modules: ["nuxt-directus", "@nuxtjs/tailwindcss"],
   publicRuntimeConfig: {
     directusUrl: process.env.DIRECTUS_URL,
+    productionUrl: process.env.PRODUCTION_URL,
   },
 });
