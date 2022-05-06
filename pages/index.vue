@@ -9,6 +9,8 @@
     <main class="max-w-screen-md mx-auto px-4 md:px-0">
       <VideoFrame :url="profile.VideoIntro" />
 
+      <Social />
+
       <section>
         <h6>{{ profile.Author }}</h6>
       </section>

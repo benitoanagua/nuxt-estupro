@@ -23,7 +23,7 @@
         'bg-gradient-to-r from-violet-500 to-violet-700',
       ]"
       @click="closeLightbox"
-      ><XIcon class="h-6 w-6 text-white"
+      ><XIcon size="24" class="text-white"
     /></span>
     <span
       :class="['max-w-md fixed bottom-2', 'text-white text-sm text-center']"
@@ -34,7 +34,7 @@
 </template>
 
 <script setup lang="ts">
-import { XIcon } from "@heroicons/vue/solid";
+import { XIcon } from "vue-tabler-icons";
 
 const props = defineProps({
   link: {

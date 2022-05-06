@@ -277,11 +277,6 @@
   dependencies:
     mime "^3.0.0"
 
-"@heroicons/vue@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@heroicons/vue/-/vue-1.0.6.tgz#d8b90734b436eb5a87f40cc300b64a0fb0031f7f"
-  integrity sha512-ng2YcCQrdoQWEFpw+ipFl2rZo8mZ56v0T5+MyfQQvNqfKChwgP6DMloZLW+rl17GEcHkE3H82UTAMKBKZr4+WA==
-
 "@hutson/parse-repository-url@^3.0.0":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@hutson/parse-repository-url/-/parse-repository-url-3.0.2.tgz#98c23c950a3d9b6c8f0daed06da6c3af06981340"
@@ -6202,6 +6197,11 @@ vue-router@^4.0.14:
   integrity sha512-wAO6zF9zxA3u+7AkMPqw9LjoUCjSxfFvINQj3E/DceTt6uEz1XZLraDhdg2EYmvVwTBSGlLYsUw8bDmx0754Mw==
   dependencies:
     "@vue/devtools-api" "^6.0.0"
+
+vue-tabler-icons@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/vue-tabler-icons/-/vue-tabler-icons-2.6.0.tgz#109c54982c154cdfea3999a4588c6bd395b249e1"
+  integrity sha512-g5RU5P7UdxJ4YL21mRQhCn3w6xbK8wir+0PsA2D8C6dNcQVUNT9Z+qiP5mofGOcARkkk0c0z4R5ogWuqvAC0Dg==
 
 vue@^3.2.33:
   version "3.2.33"
